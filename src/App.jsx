@@ -300,10 +300,10 @@ const App = () => {
               <a href="#dashboards" className="secondary-button">
                 Voir les dashboards
               </a>
-              <a href="https://github.com/" target="_blank" rel="noreferrer" className="secondary-button">
+              <a href="https://github.com/ManelYousfi" target="_blank" rel="noreferrer" className="secondary-button">
                 GitHub
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="secondary-button">
+              <a href="https://www.linkedin.com/in/manel-yousfi-/" target="_blank" rel="noreferrer" className="secondary-button">
                 LinkedIn
               </a>
             </div>
@@ -985,7 +985,7 @@ const App = () => {
                 <a href="mailto:manelyousfi.pro@gmail.com" className="primary-button">
                   Envoyer par email
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="secondary-button">
+                <a href="https://www.linkedin.com/in/manel-yousfi-/" target="_blank" rel="noreferrer" className="secondary-button">
                   Ouvrir LinkedIn
                 </a>
               </div>
