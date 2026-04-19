@@ -338,8 +338,8 @@ const App = () => {
               </div>
               <div className="grid gap-6">
                 <div className="mx-auto mt-4 flex h-64 w-full max-w-sm items-center justify-center rounded-[2rem] border border-white/10 bg-[radial-gradient(circle_at_20%_20%,rgba(99,102,241,0.35),transparent_28%),radial-gradient(circle_at_80%_30%,rgba(6,182,212,0.24),transparent_22%),linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))]">
-                  <div className="flex h-44 w-44 items-center justify-center rounded-full border border-white/10 bg-night/70 text-7xl text-text/80">
-                    MY
+                  <div className="flex h-44 w-44 items-center justify-center rounded-full border border-white/10 overflow-hidden">
+                    <img src="/Portfolio/manel.jpg" alt="Manel Yousfi" className="h-full w-full rounded-full object-cover" />
                   </div>
                 </div>
                 <div className="grid gap-4 md:grid-cols-2">
