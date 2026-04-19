@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Poppins', sans-serif;
+  background: #0a0a0f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0a0a0f;
+  color: #e2e8f0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.38);
+  color: #f8fafc;
+}
+
+@layer components {
+  .panel {
+    @apply rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(26,26,46,0.88),rgba(16,16,30,0.88))] shadow-glow backdrop-blur-xl;
+  }
+
+  .tag {
+    @apply rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-text transition duration-300 hover:-translate-y-0.5 hover:border-secondary/40 hover:bg-secondary/10;
+  }
+
+  .primary-button {
+    @apply inline-flex items-center justify-center rounded-full border border-primary/30 bg-[linear-gradient(135deg,rgba(99,102,241,0.9),rgba(6,182,212,0.8))] px-5 py-3 text-sm font-medium text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_40px_rgba(99,102,241,0.3)];
+  }
+
+  .secondary-button {
+    @apply inline-flex items-center justify-center rounded-full border border-white/10 bg-white/[0.04] px-5 py-3 text-sm font-medium text-text transition duration-300 hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.08];
+  }
+
+  .input-field {
+    @apply rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-text outline-none transition duration-300 placeholder:text-muted/70 focus:border-primary/40 focus:bg-white/[0.05];
+  }
+}
